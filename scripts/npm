@@ -13,5 +13,5 @@ export DEBIAN_FRONTEND=noninteractive
 
 # if requested, run npm install in the specified directory
 if [ ! -z "${args_install_dir}" ]; then
-    cd ${args_install_dir} && npm install
+    cd ${args_install_dir} && npm install --no-bin-links
 fi

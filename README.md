@@ -13,9 +13,6 @@ Uncomment the packages you need and launch Vagrant:
 vagrant up
 ```
 
-That's it! Enjoy!
-
-
 ## development
 
 To develop/test scripts locally, you simply need to fork the repo and change the last command when launching Vagrant:

@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+
+# @param: version of postgresql to install
+args_pg_version=${1}
+
+
+# suppress prompts
+export DEBIAN_FRONTEND=noninteractive
+
+# install PostgreSQL
+sudo -E apt-get install -qq postgresql postgresql-contrib > /dev/null

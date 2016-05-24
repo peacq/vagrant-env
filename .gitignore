@@ -1,0 +1,5 @@
+# Directories to Ignore
+/.vagrant
+/.idea
+
+# Files to Ignore
